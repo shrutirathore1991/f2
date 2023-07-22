@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  .header {
+    width: 100%;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  #green {
+    color: lightgreen;
+  }
+  .right > a {
+    color: #252525;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  .underline {
+    text-decoration: none;
+    padding-right: 4rem;
+    font-size: 1.5rem;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-text {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    color: #dc582a;
+    font-family: Arial, sans-serif;
+    padding: 5px 10px;
+    top: 5rem;
+    left: 10rem;
+  }
+  .image-text-1 {
+    width: 17rem;
+    position: absolute;
+    color: white;
+    font-size: 26px;
+    font-family: Arial, sans-serif;
+    padding: 5px 10px;
+    top: 7rem;
+    left: 10rem;
+  }
+  .image-text-2 {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    padding: 5px 10px;
+    top: 12.2rem;
+    left: 10rem;
+  }
+  .search-para {
+    display: flex;
+    justify-content: center;
+  }
+  .para {
+    margin-top: 1rem;
+    width: 24%;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    font-weight: 700;
+    color: #252525;
+  }
+  #btn {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    gap: 1rem;
+    padding-left: 3rem;
+  }
+  
+  .button-all {
+    width: 150px;
+    min-height: 60px;
+    font-size: 0.7rem;
+    background: #eaaa00;
+    color: #ffffff;
+    border-radius: 5%;
+    border: none;
+  }
+  .button-veg {
+    width: 150px;
+    min-height: 60px;
+    font-size: 0.7rem;
+    background: #c4d600;
+    color: #ffffff;
+    border-radius: 5%;
+    border: none;
+  }
+  .button-nonveg {
+    width: 150px;
+    min-height: 60px;
+    font-size: 0.7rem;
+    background: #dc582a;
+    color: #ffffff;
+    border-radius: 5%;
+    border: none;
+  }
+  .block-3 {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .filters-box {
+    padding: 3rem;
+  }
+  .filters {
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: center;
+    font-weight: 700;
+    color: #252525;
+    padding-left: 2rem;
+  }
+  .rating {
+    margin-top: 0.7rem;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    font-weight: 700;
+    color: #252525;
+    padding-left: 1rem;
+  }
+  #form {
+    margin-top: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3.5rem;
+    gap: 0.4rem;
+  }
+  /* section-4 */
+  #section-4 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #section-4 > .items-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    display: flex;
+    column-gap: 2rem;
+  }
+  .item {
+    margin-bottom: 2rem;
+  }
+  .items-list > .item {
+    border: 0.2px solid rgba(224, 224, 224, 0.197);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+  }
+  .item .img {
+    border-radius: 5%;
+    margin-bottom: 1rem;
+  }
+  .type {
+    margin-bottom: 1rem;
+  }
+  .item .title {
+    font-size: 1.2vw;
+    font-weight: 600;
+  }
+  
+  .item .product-action {
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .product-action .time {
+    color: #dc582a;
+    font-weight: 500;
+  }
+  .product-name {
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon {
+    display: flex;
+    gap: 0.6rem;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .section-1 {
+    width: 20%;
+  }
+  .link-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .link-1 > a {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: black;
+  }
+  .link-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .link-2 > a {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  .section-2 > p {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .footer-form {
+    display: flex;
+  }
+  .submit-btn {
+    background-color: green;
+    color: white;
+  }
+  #email {
+    border: 2px solid black;
+  }
+  .social-icon {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
